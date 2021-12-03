@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+.c{
+height:500px;
+width:500px;
+
+background-image:repeating-linear-gradient(to right bottom,white 0%,white 2%,black 2%, black 4%);
+margin-left:400px;
+margin-top:100px;
+box-shadow: 20px 20px 10px gray;
+text-shadow:5px 5px 3pxwhite;
+position:relative;
+}
+.c:hover{
+
+transform:perspective(500px) rotate(360deg) scale(3,3);
+transition:transform 3s linear;
+
+
+}
+#c1{
+background-color:none;
+height:22px;
+width:150px;
+position:absolute;
+top:230px;
+left:180px;
+color:black;
+text-shadow:1px 1px 1px gray;
+}
+</style>
+</head>
+
+<body>
+
+<div class="c"><div id="c1">Happy Friendship Day</div></div>
+
+
+</body>
+
+</html>
